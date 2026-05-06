@@ -32,5 +32,13 @@ let fruits = ["apple", "mango", "banana", "orange"];
   console.log(addFirst);
 
 
+//   splice() add/remove element of array
+
+let names =["payal", "shruti", "diksha", "sneha"];
+let addSplice = names.splice(1,2, "shruti adwani", "diksha bopche");
+console.log(names);
+console.log(addSplice)
+
+
 
 
